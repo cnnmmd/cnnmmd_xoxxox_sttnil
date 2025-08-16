@@ -4,7 +4,7 @@ networks:
     external: true
 services:
   xoxxox_sttnil:
-    image: xoxxox_envweb:001
+    image: xoxxox/envweb:001
     container_name: xoxxox_sttnil
     volumes:
     - ../../../export:/opt/common
